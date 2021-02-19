@@ -12,7 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  interval_tree: ^0.2.3
+  interval_tree:
+    git:
+      url: git://github.com/w8land/interval_tree.git
+      ref: master
 dev_dependencies:
   flutter_test:
     sdk: flutter
